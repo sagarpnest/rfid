@@ -1,0 +1,53 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/loginfinal.css">
+<title>Login</title>
+</head>
+<body>
+<div class="main">
+<div class="box">
+<img src="logo.png" class="collegelogo">
+
+</div>
+<div class="innerbox">
+<label  id="username">Username</label><input type="text" class="usertext" name="username">
+<label  id="password">Password</label><input type="text" class="passtext" name="password">
+
+<input type="submit" name="Login" value="Login" class="button">
+
+</div>
+</div>
+</body>
+</html>
+
+<?php
+if($POST['login'])
+{
+$url = 'https://9c2f-123-201-67-110.ngrok.io/';
+
+// Create a new cURL resource
+$ch = curl_init($url);
+
+// Setup request to send json via POST
+$data = array(
+    'username' => $_POST['username'],
+    'password' => $_POST['password'];
+);
+$payload = json_encode(array("user" => $data));
+
+// Attach encoded JSON string to the POST fields
+curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+
+// Set the content type to application/json
+curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
+
+// Return response instead of outputting
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+// Execute the POST request
+$result = curl_exec($ch);
+
+// Close cURL resource
+curl_close($ch);
+}
+?>

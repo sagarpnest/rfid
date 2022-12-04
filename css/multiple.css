@@ -1,0 +1,58 @@
+
+.detail{
+
+position: absolute;
+width: 500px;
+height: 500px;
+left: 377px;
+top: 168px;
+}
+#upload {
+
+position: absolute;
+width: 228px;
+height: 26px;
+left: 100px;
+top: 108px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 37px;
+
+color: #000000;
+}
+#myFile{
+
+position: absolute;
+width: 189px;
+height: 50px;
+left: 255px;
+top: 115px;
+}
+#btn{
+position: absolute;
+width: 150px;
+height: 60px;
+left:   225px;
+top: 200px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 37px;
+border-radius: 12px;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+background:#1BA098;
+
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color:#1BA098;
+  text-align: center;
+  margin: 12px;
+}

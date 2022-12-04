@@ -1,0 +1,61 @@
+.card{
+    text-align: center;    
+    color: #1BA098;
+    width: 360px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    padding: 22px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+	margin: auto;
+	text-align: center;
+    border: 3px solid #f1f1f1;
+}
+
+.title{
+	
+	font-size: 15px;
+	
+}
+
+input[type=text],input[type=number],input[type=email],input[type=password],input[type=date],input[type=tel],select {
+    width: 200px;
+    padding: 6px;
+    height: 35px;
+    margin: 12px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+
+input[type=submit],input[type=reset],input[type=button] {
+    width: 100px;
+    height: 35px;
+    margin: 12px;
+    color: floralwhite;
+    -moz-box-sizing: border-box;    
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: #1BA098;
+}
+
+a{
+    color:#1BA098;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:#1BA098;
+    text-align: center;
+    margin: 12px;
+}

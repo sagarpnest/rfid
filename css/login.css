@@ -1,0 +1,162 @@
+.box{
+
+position: relative;
+width: 692px;
+height: 590px;
+
+background: #F4F5FF;
+}
+
+.header{
+position: absolute;
+width: 692px;
+height: 68px;
+left: 0px;
+top: 0px;
+}
+
+
+.collegelogo{
+
+position: absolute;
+width: 221px;
+height: 44px;
+left: 11px;
+top: 12px;
+
+background: url(logo.png);
+}
+
+.loginlink
+{
+position: absolute;
+width: 104px;
+height: 29px;
+left: 538px;
+top: 18px;
+
+background: #EAF9F8;
+}
+
+.text{
+
+position: absolute;
+width: 68px;
+height: 20px;
+left: 549px;
+top: 27px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+
+}
+.innerbox
+{
+
+position: absolute;
+width: 314px;
+height: 373px;
+left: 201px;
+top: 133px;
+}
+/* Frame 4 */
+.userframe
+{
+position: absolute;
+width: 284px;
+height: 67px;
+left: 9px;
+top: 31px;
+
+
+}
+#username
+{
+position: absolute;
+width: 97px;
+height: 24px;
+left: 24px;
+top: 56px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+
+
+#usertext 
+{
+position: absolute;
+width: 113px;
+height: 44px;
+left: 145px;
+top: 46px;
+
+background: #FFFFFF;
+}
+.pass
+{
+position: absolute;
+width: 263px;
+height: 66px;
+left: 18px;
+top: 121px;
+}
+
+
+#password{
+
+position: absolute;
+width: 80px;
+height: 21px;
+left: 26px;
+top: 137px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #000000;
+
+}
+
+#passtext{
+
+position: absolute;
+width: 113px;
+height: 44px;
+left: 145px;
+top: 131px;
+
+background: #FFFFFF;
+
+}
+#Button{
+
+position: absolute;
+width: 121px;
+height: 41px;
+left: 73px;
+top: 200px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+
+}
